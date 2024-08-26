@@ -1,0 +1,117 @@
+/* Container for the entire content */
+.container {
+  border: 5px solid #333; /* Darker border */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px; /* Rounded corners */
+  max-width: 1200px; /* Center the content */
+  background: #f9f9f9; /* Light background */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background: linear-gradient(90deg, #c0c0c0, #c0c0c0); /* Gradient background */
+  border-radius: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.items {
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+}
+
+.items:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3); /* More opaque on hover */
+}
+
+/* Logo Styling */
+nav img {
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+nav img:hover {
+  transform: rotate(360deg); /* Rotate on hover */
+}
+
+/* Team Section Styling */
+.Team h1 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Pictures Section */
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pictures > div {
+  border: 3px solid #c0c0c0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.pictures > div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.pictures h2 {
+  color: #00100;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pictures p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.pictures img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.pictures img:hover {
+  transform: scale(1.1);
+}
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  justify-content: space-betwee;
+}
+
+
+
+#Our-Team .Team{
+  font-size: 150px;
+}

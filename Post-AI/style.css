@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f3f4f6, #e3e6e8);
+  color: #333;
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.02);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.items {
+  color: #444;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  font-size: 24px;
+}
+
+.items:hover {
+  transform: scale(1.2);
+  background-color: #e9ecef;
+  color: #007bff;
+}
+
+nav img {
+  height: 70px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+nav img:hover {
+  transform: rotate(360deg);
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+/* Flex Container Styling */
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.flex-container:hover {
+  background-color: #f7f7f7;
+  transform: scale(1.1);
+}
+
+/* About Section Styling */
+.AllStarCode {
+  padding: 60px;
+  background: rgba(245, 245, 245, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.AllStarCode h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+  transition: color 0.3s ease;
+}
+
+.AllStarCode h2:hover {
+  color: #007bff;
+}
+
+#first-p {
+  font-size: 22px;
+  padding-left: 30px;
+  line-height: 1.8;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+#first-p:hover {
+  color: #333;
+}
+
+/* Image Styling */
+.flex-container img {
+  height: 150px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.flex-container img:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
