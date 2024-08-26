@@ -1,1 +1,1 @@
-# Capstone-
+In AllStarCode, a highly-selective program, we learnt Javascript, HTML, and CSS fundamentals. Using this knowledge we created a Capstone dedicated to Web Development. Our Capstone is based on a personal website about our team and how we aspire to help our communities. In the Capstone, I was Project Manager. As Project Manager, I was responsible of maintaining team morale, suggesting ideas, assisting our engineers on debugging, and kept our team organized throughout the rigorous project. 
